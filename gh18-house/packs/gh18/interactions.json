@@ -1,0 +1,5 @@
+{
+  "version": 1,
+  "overrides": {},
+  "notes": "Home-specific interaction overrides belong here; house_r1.json remains the source of truth."
+}

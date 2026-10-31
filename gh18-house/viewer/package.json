@@ -8,6 +8,7 @@
     "build": "vite build",
     "preview": "vite preview",
     "shots": "node scripts/shots.mjs",
+    "play:shots": "node scripts/play_shots.mjs",
     "film": "node film/render.mjs gpu && python3 film/post.py ../renders/film/GH-18_film.mp4"
   },
   "dependencies": {

@@ -71,5 +71,14 @@ export default defineConfig({
   publicDir: '../assets',
   plugins: [stripPrivate, siteUrl, extraPages],
   server: { port: 5173, fs: { allow: ['..'] } },
-  build: { outDir: 'dist', chunkSizeWarningLimit: 2000 },
+  build: {
+    outDir: 'dist',
+    chunkSizeWarningLimit: 2000,
+    rollupOptions: {
+      input: {
+        tour: path.resolve(__dirname, 'index.html'),
+        play: path.resolve(__dirname, 'play/index.html'),
+      },
+    },
+  },
 });

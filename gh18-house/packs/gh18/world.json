@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "home": "gh18",
+  "spawn": { "at": [4700, 24200], "floor": "GF", "heading": 180 },
+  "time": { "date": "2026-10-31", "hour": 16, "minute": 45 },
+  "street": {
+    "roadWidth": 9000,
+    "plotFrontage": 9381,
+    "mode": "placeholder"
+  }
+}
